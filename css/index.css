@@ -1,0 +1,54 @@
+
+* { font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+    background-color: #719add;
+    outline: 5px solid salmon;
+    box-sizing: border-box;
+    padding: 40px;
+    margin: 15px;
+    border: 200px;
+
+}
+img {
+    height: 300px;
+    width: auto;
+    border: 5px solid seashell
+}
+
+#title {
+    font-size: 50px
+}
+
+.recipes li { list-style: georgian outside url('/non-existent.svg');
+    font-size: 35px;
+}
+.heading, .subheading, #title {
+    font-weight: bold;
+    color:springgreen;
+
+}
+
+.heading, .subheading {
+    font-size: 30px;
+  
+
+}
+
+.subheading {
+
+    text-decoration: underline
+}
+li { 
+    color: white;
+    font-size: 15px;
+}
+p { 
+    color: white;
+    font-size: 20px;
+}
+
+a { 
+    text-decoration: none;
+    color:fuchsia
+}
+
