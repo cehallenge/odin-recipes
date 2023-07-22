@@ -27,7 +27,7 @@ img {
     padding: 15px;
     margin: auto;
     width: 7em;
-    border-color: rgba(234, 216, 16, 0.276);
+    border-color: rgba(234, 216, 16, 0.857);
     border-width: 10px;
     border-style: double;
 }
@@ -39,7 +39,7 @@ img {
     font-stretch: auto;
     text-align: center;
     padding: 15px;
-    margin: auto;
+    margin: 1em auto;
     width: 10em;
     border-color: rgba(234, 216, 16, 0.194);
     border-width: 10px;
@@ -48,6 +48,11 @@ img {
 
 .subheading {
     color:rgb(255, 20, 232);
+    text-align: center;
+}
+
+.type-coffee {
+    text-decoration: underline;
 }
 
 div {
@@ -66,11 +71,15 @@ a {
     text-decoration: none;
     color: rgb(255, 20, 232);
     font-weight: bold;
-
+    text-align: center;
 }
 
 ol, ul, li {
     color: yellow;
+    text-align: center;
+    width: 900px;
+    margin: auto;
+    padding: 6px;
 }
 
 .recipe {
@@ -82,4 +91,12 @@ ol, ul, li {
     border-color: rgba(234, 216, 16, 0.847);
     border-width: 4px;
     border-style: solid;
+}
+
+.home {
+    border-color: rgba(234, 216, 16, 0.857);
+    border-width: 10px;
+    border-style: double;
+    margin: auto;
+    width: 6em;
 }
