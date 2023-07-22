@@ -1,54 +1,85 @@
-
-* { font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:white;
-    background-color: #719add;
-    outline: 5px solid salmon;
-    box-sizing: border-box;
-    padding: 40px;
-    margin: 15px;
-    border: 200px;
+* {
+    background-color: #7fedf3;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    width: auto;
+    margin: 5px;
+    padding: 2px;
+    display: block;
 
 }
+
+title {
+    visibility: hidden;
+}
+
 img {
     height: 300px;
     width: auto;
-    border: 5px solid seashell
+    margin: auto;
 }
 
-#title {
-    font-size: 50px
-}
-
-.recipes li { list-style: georgian outside url('/non-existent.svg');
-    font-size: 35px;
-}
-.heading, .subheading, #title {
+.superheading {
+    display: block;
+    color: #f33d30;
     font-weight: bold;
-    color:springgreen;
-
+    font-stretch: auto;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+    width: 7em;
+    border-color: rgba(234, 216, 16, 0.276);
+    border-width: 10px;
+    border-style: double;
 }
 
-.heading, .subheading {
-    font-size: 30px;
-  
-
+.heading {
+    display: block;
+    color: #edf428;
+    font-weight: bold;
+    font-stretch: auto;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+    width: 10em;
+    border-color: rgba(234, 216, 16, 0.194);
+    border-width: 10px;
+    border-style: double;
 }
 
 .subheading {
-
-    text-decoration: underline
-}
-li { 
-    color: white;
-    font-size: 15px;
-}
-p { 
-    color: white;
-    font-size: 20px;
+    color:rgb(255, 20, 232);
 }
 
-a { 
+div {
+    display: block;
+    align-items: center;
+    width: 400px;
+    margin: auto;
+    padding: 0em;
+    
+}
+
+p {
+    text-align: center;
+}
+a {
     text-decoration: none;
-    color:fuchsia
+    color: rgb(255, 20, 232);
+    font-weight: bold;
+
 }
 
+ol, ul, li {
+    color: yellow;
+}
+
+.recipe {
+    color: white;
+
+}
+
+.lasagna, .ziti, .coffee {
+    border-color: rgba(234, 216, 16, 0.847);
+    border-width: 4px;
+    border-style: solid;
+}
